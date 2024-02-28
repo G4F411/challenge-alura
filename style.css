@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Rubik:wght@300;400;500&display=swap');
+
+:root {
+    --corprincipal: #2c1374;
+    --corsegudaria: #fdcd22;
+    --cortitulo: #f6f6f6;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    height: 100%;
+    
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+.cabecalho h1 {
+    color: var(--cortitulo);
+    margin-left: 20px; 
+}
+
+.cabecalho img {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.text-area{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    left: 200px;
+    top: 300px;
+
+    padding: 10px;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    color: var(--cortitulo)
+}
+
+.mensagem {
+    float: right;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 2% 0 0 4%;
+    font-size: x-large;
+    flex-direction: column;
+    border: none;
+    border-radius: 20px;
+    width: 250px;
+    height: 300px;
+    margin-right: 20%;
+    background-image: url('Pergaminho.png');
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+.botoes {
+    margin-top: 150px;
+}
+
+.btn-criptografar{  
+    font-size: medium;
+    border: 2px solid;
+    border-radius: 24px;
+    text-decoration: none;
+    background: #fdcd22;
+    color: #2c1374;
+    width: 200px;
+    height: 75px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.btn-descriptografar {
+    font-size: medium;
+    border: 2px solid;
+    border-radius: 24px;
+    text-decoration: none;
+    background: #fdcd22;
+    color: #2c1374;
+    width: 200px;
+    height: 75px;
+    margin-left: 10%;
+    cursor: pointer;
+}
+
+.text-area::placeholder {
+    color: #f6f6f6;
+}
+
+.btn-criptografar:hover,
+.btn-descriptografar:hover {
+  border: 2px solid var(--cortitulo);}
+
+  .rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+  }
+
+  h2{
+    color: var(--cortitulo);
+    font-size: 18px;
+  }
+
+  h3{
+    color: var(--cortitulo);
+    font-size:10px;
+  }
+
+  .icons ion-icon {
+    width: 18px;
+    height: 18px;
+    color: var(--corprincipal);
+}
+
+.icons ion-icon:hover {
+    color: var(--corprincipal)
+}
+
+a{
+    color: var(--corprincipal);
+    font-size: 18px;
+}
